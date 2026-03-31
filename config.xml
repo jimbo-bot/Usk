@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.salims.usk" version="1.0.0"
+    xmlns="http://www.w3.org/ns/widgets"
+    xmlns:cdv="http://cordova.apache.org/ns/1.0">
+
+    <name>Used Phones Kenya</name>
+
+    <description>
+        App for selling legal used phones in Kenya
+    </description>
+
+    <author email="you@example.com">
+        Salim Jimbo
+    </author>
+
+    <content src="index.html" />
+
+    <access origin="*" />
+
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+
+    <!-- ANDROID ICON -->
+    <platform name="android">
+        <icon src="res/usk.png" />
+    </platform>
+
+</widget>
